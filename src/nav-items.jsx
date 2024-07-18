@@ -1,6 +1,5 @@
-import { Home, BarChart } from "lucide-react";
+import { Home } from "lucide-react";
 import Index from "./pages/Index.jsx";
-import Results from "./pages/Results.jsx";
 
 export const navItems = [
   {
@@ -8,11 +7,5 @@ export const navItems = [
     to: "/",
     icon: <Home className="h-4 w-4" />,
     page: <Index />,
-  },
-  {
-    title: "Results",
-    to: "/results/:stockName",
-    icon: <BarChart className="h-4 w-4" />,
-    page: <Results />,
   },
 ];
